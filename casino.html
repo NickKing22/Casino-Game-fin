@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--This is a link to the .css file-->
+    <link rel="stylesheet" href="css.css">
+    <!--This is a link to the .js file-->
+     <script src = "code.js"></script>
+    <title>CASINO GAME</title>
+</head>
+<body>
+    <!--This is the code to pull the image and display it on the page-->
+    <img src="file:///C:/Users/ngarc/OneDrive/Desktop/pic2.jpg">
+    <!--This is the description of what the page will do-->
+    <h1><center>CASINO GAME</center></h1>
+        <p><center>Welcome to the random casino game page. Theres only one game so I hope you enjoy it!</center></p>
+        <p><center>The game itself isn't complex and only requires a click of a button! Thank you and have fun!</center></p>
+        <p><center>------------------------------------------------------------------------</center></p>
+    <!--This will seperate the line above from the line below-->
+    <script>
+        document.write("</br>");
+        document.write("</br>");
+    </script>
+<!--This is the play button-->
+    <div class="container container1">
+        <button class="button1" onClick = "playGame()">Play</button> 
+     </div>
+<!--This will display the first dice-->
+     <p>Dice 1</p>
+        <p id = "firstDice"></p>
+<!--This will display the second dice-->
+     <p>Dice 2</p> 
+        <p id = "secondDice"></p>
+<!--This will display the total of the dice-->
+     <p>Total</p>
+        <p id = "diceTotal"></p>
+<!--This will display whether or not the player has won-->
+     <p id = "winning"></p>
+     
+    
+</body>
+</html>
